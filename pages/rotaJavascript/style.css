@@ -1,0 +1,30 @@
+/*h1{
+    background-color: dodgerblue;
+}
+p{
+    background-color:red;
+}*/
+td, th{
+    border:2px solid blueviolet;
+    text-align: left;
+    padding: 8px;
+}
+tr{
+    background-color: white;
+}
+tr:nth-child(even){
+    background-color: #dddddd;
+}
+div{
+    
+    margin-top: 5px;
+    margin-right: 5px;
+    border: 5px solid #1762a0;
+    background-color: #1C78C2;
+}
+/*div:nth-child(even){
+    background-color: #1C78C2;
+}*/
+html {
+    background-color: #ED4649;
+}

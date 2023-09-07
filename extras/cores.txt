@@ -1,0 +1,15 @@
+https://colorhunt.co/palettes/popular
+
+1ª paleta de cores
+
+    #222831
+    #393E46
+    #00ADB5
+    #EEEEEE
+
+2º paleta de cores
+
+    #F4EEFF
+    #DCD6F7
+    #A6B1E1
+    #424874

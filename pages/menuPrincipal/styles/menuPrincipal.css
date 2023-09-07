@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: sans-serif;
+  z-index: 0;
+}
+
+.menuNavegacao {
+  z-index: 1;
+  position: fixed;
+  height: 7vh;
+  width: 100vw;
+  background-color: #424874;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #F4EEFF;
+  gap: 30px;
+  transition: all 500ms ease-in-out;
+}
+.menuNavegacao a {
+  text-decoration: none;
+  color: #F4EEFF;
+  transition: all 200ms ease-in-out;
+}
+.menuNavegacao a:hover {
+  color: #DCD6F7;
+  padding: 10px 20px;
+  background-color: #A6B1E1;
+  border-radius: 15px;
+}
+
+.conteudoPrincipal {
+  padding-top: 7vh;
+  min-height: 100vh;
+}
+.frontendContainer{
+  padding: 20px 50px;
+}
+
+.frontendContainer h1{
+  color: #424874;
+}
+.frontendContainer p{
+  color: #A6B1E1;
+  padding-left: 20px;
+}
+
+.tecnologiasContainer{
+  background-color: #424874;
+  padding: 20px 50px;
+}
+
+.componenteTech {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #F4EEFF;
+  margin: 50px 10px;
+  background-color: #fff;
+  box-shadow: 0px 0px 30px 5px #DCD6F7;
+  border-radius: 15px;
+}
+.componenteTech h1 {
+  margin-top: 5px;
+  color: #424874;
+}
+.componenteTech p{
+  color:#A6B1E1;
+}
+
+.fotoDescricao {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.fotoDescricao img {
+  max-height: 250px;
+  margin-right: 20px;
+}
+
+.css {
+  flex-direction: row-reverse;
+}
+.logicaProgramacao {
+  flex-direction: row-reverse;
+}
+
+.linkContainer {
+  margin-bottom: 20px;
+  width: 25vw;
+  padding: 10px 0px;
+  background-color:#424874;
+  text-decoration: none;
+  color: #F4EEFF;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  transition: all 300ms ease-in-out;
+}
+.linkContainer:hover {
+  scale: 1.2;
+  background-color: #A6B1E1;
+  color: #DCD6F7;
+  border-radius: 15px;
+}
+
+.sobreNos{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 50px;
+}
+
+.sobreNos h1{
+  color: #424874;
+}
+
+.sobreNos p{
+  color: #A6B1E1;
+  padding-left: 20px;
+}
+
+
+.rodaPe {
+  border-top:  1px solid #F4EEFF;
+  min-height: 40vh;
+  background-color: #424874;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.rodaPe div{
+  display: flex;
+  flex-direction: column;
+}
+.rodaPe div a {
+  margin: 0px 20px;
+  text-decoration: none;
+  color: #F4EEFF;
+  transition: all 200ms ease-in-out;
+}
+
+.rodaPe div a:hover {
+  margin-left: 30px;
+  color: #DCD6F7;
+  padding: 10px 20px;
+  background-color: #A6B1E1;
+  border-radius: 15px;
+}
