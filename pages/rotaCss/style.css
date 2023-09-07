@@ -1,15 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: sans-serif;
+  z-index: 0;
+}
+
+.styleH1 {
+  padding-top: 25px;
+}
+
+header a {
+  margin-left: 40px;
+}
+
+.menuNavegacao {
+  z-index: 1;
+  padding-left: 10px;
+  position: fixed;
+  height: 7vh;
+  width: 100vw;
+  background-color: #424874;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  border-bottom: 1px solid #f4eeff;
+  gap: 30px;
+  transition: all 500ms ease-in-out;
+}
+
+.menuNavegacao a {
+  text-decoration: none;
+  color: #f4eeff;
+  transition: all 200ms ease-in-out;
+}
+
+.menuNavegacao a:hover {
+  color: #dcd6f7;
+  padding: 10px 20px;
+  background-color: #a6b1e1;
+  border-radius: 15px;
+}
+
+.startCss {
+  padding: 20px 50px;
+}
+
+.startCss h1 {
+  color: #424874;
+  padding-top: 55px;
+}
+
+.startCss p {
+  text-align: justify;
+  color: #a6b1e1;
+}
+
+.settingscontainer {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  margin: 0 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.forCss {
+  padding: 20px 50px;
+  background-color: #424874;
+  color: white;
+}
+
+.forCss p {
+  text-align: justify;
+}
+
+.forCss ul {
+  padding-left: 25px;
+}
+
+.mostUsed {
+  padding: 20px 50px;
+}
+
+.mostUsed h1,
+h4,
+table {
+  color: #424874;
+}
 
 table {
-    font-family: arial, sans-serif;
-    border-collapse: collapse;
-    width: 50%;
-  }
-  
-  td, th {
-    border: 1px solid #dddddd;
-    text-align: justify;
-    padding: 8px;
-  }
-  tr:nth-child(even) {
-    background-color: #f3f2a5;
-  }
+  margin-left: 25px;
+  border-collapse: collapse;
+  width: 50%;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: justify;
+  padding: 8px;
+}
+tr:nth-child(even) {
+  background-color: #424874;
+}
+
+.diferenttable {
+  color: white;
+}
+
+a {
+  text-align: justify;
+  text-decoration: none;
+}
+.needMore {
+  padding: 20px 50px;
+}
+
+.needMore h1 {
+  color: #424874;
+  padding-bottom: 30px;
+}
+
+.needMore ul {
+  text-decoration: none;
+  padding-left: 25px;
+}
+
+.needMore p {
+  text-align: justify;
+  padding-top: 5px;
+  color: #a6b1e1;
+}
+
+.rodaPe {
+  border-top: 1px solid #f4eeff;
+  min-height: 40vh;
+  background-color: #424874;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.rodaPe div {
+  display: flex;
+  flex-direction: column;
+}
+.rodaPe div a {
+  margin: 0px 20px;
+  text-decoration: none;
+  color: #f4eeff;
+  transition: all 200ms ease-in-out;
+}
+
+.rodaPe div a:hover {
+  margin-left: 30px;
+  color: #dcd6f7;
+  padding: 10px 20px;
+  background-color: #a6b1e1;
+  border-radius: 15px;
+}
