@@ -168,3 +168,32 @@
   background-color: #A6B1E1;
   border-radius: 15px;
 }
+
+@media (max-width: 768px) {
+
+  .fotoDescricao {
+    display: flex;
+    flex-direction: column;
+  }
+  .linkContainer {
+    padding: 0px 70px;
+  }
+  .componenteTech{
+    padding: 20px 50px;
+  }
+  .componenteTech p{
+    max-width: 300px;
+  }
+  .fotoDescricao img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-height: 150px;
+    margin-bottom: 20px;
+  }
+  .sobreNos img{
+    max-height: 300px;
+    padding: 20px 50px;
+  }
+}
