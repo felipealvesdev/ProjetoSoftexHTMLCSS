@@ -191,6 +191,7 @@
     align-items: center;
     max-height: 150px;
     margin-bottom: 20px;
+    margin-right: 0px;
   }
   .sobreNos img{
     max-height: 300px;
