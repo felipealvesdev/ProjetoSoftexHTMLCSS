@@ -7,6 +7,15 @@
   z-index: 0;
 }
 
+
+::-webkit-scrollbar {
+  width: 15px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #a6b1e1;
+}
+
+
 .styleH1 {
   padding-top: 25px;
 }

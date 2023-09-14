@@ -7,6 +7,15 @@
     z-index: 0;
 }
 
+
+::-webkit-scrollbar {
+  width: 15px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #a6b1e1;
+}
+
+
 .menuNavegacao {
     z-index: 1;
     padding-left: 10px;
