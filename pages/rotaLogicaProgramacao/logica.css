@@ -49,13 +49,13 @@ header a {
 }
 
 .startlogica h1 {
-  color: #7070ba;
+  color: #424874;
   padding-top: 55px;
 }
 
 .startlogica p {
   text-align: justify;
-  color: #c0c4d1;
+  color: #a6b1e1;
 }
 
 .settingscontainer {
@@ -87,15 +87,15 @@ header a {
 }
 
 .mostUsed h1 {
-  color: #7070ba;
+  color: #424874;
 }
 
 .mostUsed p {
-  color: #c0c4d1;
+  color: #a6b1e1;
 }
 
 .mostUsed ul {
-  color: #424874;
+  color: #a6b1e1;
 }
 
 .diferenttable {
