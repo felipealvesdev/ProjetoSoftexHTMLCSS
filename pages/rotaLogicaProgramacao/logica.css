@@ -40,22 +40,22 @@ header a {
 .menuNavegacao a:hover {
   color: #dcd6f7;
   padding: 10px 20px;
-  background-color: #a6b1e1;
+  background-color: #A6B1E1;
   border-radius: 15px;
 }
 
-.startCss {
+.startlogica {
   padding: 20px 50px;
 }
 
-.startCss h1 {
-  color: #424874;
+.startlogica h1 {
+  color: #7070ba;
   padding-top: 55px;
 }
 
-.startCss p {
+.startlogica p {
   text-align: justify;
-  color: #a6b1e1;
+  color: #c0c4d1;
 }
 
 .settingscontainer {
@@ -68,17 +68,17 @@ header a {
   margin-bottom: 20px;
 }
 
-.forCss {
+.forlogica {
   padding: 20px 50px;
   background-color: #424874;
   color: white;
 }
 
-.forCss p {
+.forlogica p {
   text-align: justify;
 }
 
-.forCss ul {
+.forlogica ul {
   padding-left: 25px;
 }
 
@@ -86,26 +86,16 @@ header a {
   padding: 20px 50px;
 }
 
-.mostUsed h1,
-h4,
-table {
+.mostUsed h1 {
+  color: #7070ba;
+}
+
+.mostUsed p {
+  color: #c0c4d1;
+}
+
+.mostUsed ul {
   color: #424874;
-}
-
-table {
-  margin-left: 25px;
-  border-collapse: collapse;
-  width: 50%;
-}
-
-td,
-th {
-  border: 1px solid #dddddd;
-  text-align: justify;
-  padding: 8px;
-}
-tr:nth-child(even) {
-  background-color: #424874;
 }
 
 .diferenttable {
@@ -166,9 +156,10 @@ a {
   border-radius: 15px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 760px) {
   .settingscontainer {
-    display: flex;
-    flex-direction: column;
+      flex-direction: column;
   }
+  
 }
+  

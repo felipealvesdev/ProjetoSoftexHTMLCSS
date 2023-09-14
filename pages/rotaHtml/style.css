@@ -86,6 +86,10 @@ header a {
   padding: 20px 50px;
 }
 
+.mostUsed ul li {
+  color: #a6b1e1;
+}
+
 .mostUsed h1,
 h4,
 table {
@@ -167,7 +171,7 @@ a {
 }
 
 @media (max-width: 768px) {
-  .settingscontainer {
+  .settingscontainer  {
     display: flex;
     flex-direction: column;
   }

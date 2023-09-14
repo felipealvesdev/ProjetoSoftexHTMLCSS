@@ -7,11 +7,11 @@
   z-index: 0;
 }
 
-::-webkit-scrollbar{
+::-webkit-scrollbar {
   width: 15px;
 }
-::-webkit-scrollbar-thumb{
-  background-color: #A6B1E1;
+::-webkit-scrollbar-thumb {
+  background-color: #a6b1e1;
 }
 
 .menuNavegacao {
@@ -24,19 +24,19 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  border-bottom: 1px solid #F4EEFF;
+  border-bottom: 1px solid #f4eeff;
   gap: 30px;
   transition: all 500ms ease-in-out;
 }
 .menuNavegacao a {
   text-decoration: none;
-  color: #F4EEFF;
+  color: #f4eeff;
   transition: all 200ms ease-in-out;
 }
 .menuNavegacao a:hover {
-  color: #DCD6F7;
+  color: #dcd6f7;
   padding: 10px 20px;
-  background-color: #A6B1E1;
+  background-color: #a6b1e1;
   border-radius: 15px;
 }
 
@@ -44,19 +44,19 @@
   padding-top: 7vh;
   min-height: 100vh;
 }
-.frontendContainer{
+.frontendContainer {
   padding: 20px 50px;
 }
 
-.frontendContainer h1{
+.frontendContainer h1 {
   color: #424874;
 }
-.frontendContainer p{
-  color: #A6B1E1;
+.frontendContainer p {
+  color: #a6b1e1;
   padding-left: 20px;
 }
 
-.tecnologiasContainer{
+.tecnologiasContainer {
   background-color: #424874;
   padding: 20px 50px;
 }
@@ -66,18 +66,18 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border: 1px solid #F4EEFF;
+  border: 1px solid #f4eeff;
   margin: 50px 10px;
   background-color: #fff;
-  box-shadow: 0px 0px 30px 5px #DCD6F7;
+  box-shadow: 0px 0px 30px 5px #dcd6f7;
   border-radius: 15px;
 }
 .componenteTech h1 {
   margin-top: 5px;
   color: #424874;
 }
-.componenteTech p{
-  color:#A6B1E1;
+.componenteTech p {
+  color: #a6b1e1;
 }
 
 .fotoDescricao {
@@ -105,24 +105,24 @@
   margin-bottom: 20px;
   width: 25vw;
   padding: 10px 0px;
-  background-color:#424874;
+  background-color: #424874;
   text-decoration: none;
-  color: #F4EEFF;
+  color: #f4eeff;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-
   transition: all 300ms ease-in-out;
 }
+
 .linkContainer:hover {
   scale: 1.2;
-  background-color: #A6B1E1;
-  color: #DCD6F7;
+  background-color: #a6b1e1;
+  color: #dcd6f7;
   border-radius: 15px;
 }
 
-.sobreNos{
+.sobreNos {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -130,18 +130,17 @@
   padding: 20px 50px;
 }
 
-.sobreNos h1{
+.sobreNos h1 {
   color: #424874;
 }
 
-.sobreNos p{
-  color: #A6B1E1;
+.sobreNos p {
+  color: #a6b1e1;
   padding-left: 20px;
 }
 
-
 .rodaPe {
-  border-top:  1px solid #F4EEFF;
+  border-top: 1px solid #f4eeff;
   min-height: 40vh;
   background-color: #424874;
   color: #fff;
@@ -150,27 +149,28 @@
   justify-content: center;
   align-items: center;
 }
-.rodaPe div{
+
+.rodaPe div {
   display: flex;
   flex-direction: column;
 }
+
 .rodaPe div a {
   margin: 0px 20px;
   text-decoration: none;
-  color: #F4EEFF;
+  color: #f4eeff;
   transition: all 200ms ease-in-out;
 }
 
 .rodaPe div a:hover {
   margin-left: 30px;
-  color: #DCD6F7;
+  color: #dcd6f7;
   padding: 10px 20px;
-  background-color: #A6B1E1;
+  background-color: #a6b1e1;
   border-radius: 15px;
 }
 
 @media (max-width: 768px) {
-
   .fotoDescricao {
     display: flex;
     flex-direction: column;
@@ -178,10 +178,10 @@
   .linkContainer {
     padding: 0px 70px;
   }
-  .componenteTech{
+  .componenteTech {
     padding: 20px 50px;
   }
-  .componenteTech p{
+  .componenteTech p {
     max-width: 300px;
   }
   .fotoDescricao img {
@@ -191,9 +191,10 @@
     align-items: center;
     max-height: 150px;
     margin-bottom: 20px;
+    margin-right: 0px;
   }
-  .sobreNos img{
-    max-height: 300px;
+  .sobreNos img {
+    max-height: 200px;
     padding: 20px 50px;
   }
 }
